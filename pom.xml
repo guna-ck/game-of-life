@@ -499,12 +499,12 @@
         <repository>
             <id>releases</id>
             <name>Releases</name>
-            <utl>http://192.168.0.130:8081/nexus/content/repositories/releases</utl>
+            <url>http://192.168.0.3:8081/nexus/content/repositories/releases</utr>
         </repository>
         <snapshotsRepository>
             <id>snapshopts</id>
             <name>Snapshots</name>
-            <url>http://192.168.0.130:8081/nexus/content/repositories/snapshots</url>
+            <url>http://192.168.0.3:8081/nexus/content/repositories/snapshots</url>
             </snapshotRepository>
     </distributionManagement>
 </project>
